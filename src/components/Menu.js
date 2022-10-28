@@ -18,7 +18,10 @@ function Menu() {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>Sunday</tr>
+                    <tr>Chicken Fontega Sandwich</tr>
+                    <tr>Tomato Soup</tr>
+                    <tr>Salad</tr>
+
                 </tbody>
             </table>
         </div>

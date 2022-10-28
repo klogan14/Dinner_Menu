@@ -12,8 +12,8 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        {/* <a href='/menu'>Go to the Menu for the week</a> */}
-        <Route path="/menu" element={<Menu />} ></Route>
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/recipes" element={<Menu />} />
       </Routes>
     </Router>
   );
