@@ -1,6 +1,18 @@
+import axios from "axios";
+import {  useEffect } from 'react';
 
+axios.defaults.baseURL = 'https://dinnermenuapi.azurewebsites.net';
 
 function Menu() {
+
+    useEffect(() => {
+        axios.get('/api/GetMenu?code=s3S42E7b_wVvAkQbTlmApQZzjzXFXYpz0-1lLirC9Kg2AzFuf2TLEA==&name=kyle')
+          .then((result) => {
+            console.log(result.data);
+          })
+          .catch(console.error);
+      }, []);
+
 
     return (
         <div className=''>

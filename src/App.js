@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/menu" element={<Menu />} />
-        <Route path="/recipes" element={<Menu />} />
+        <Route path="/recipes"  />
       </Routes>
     </Router>
   );
