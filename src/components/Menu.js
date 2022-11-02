@@ -1,7 +1,6 @@
 import axios from "axios";
 import {  useEffect } from 'react';
 
-
 function Menu({code}) {
     axios.defaults.baseURL = 'https://dinnermenuapi.azurewebsites.net';
 

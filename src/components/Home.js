@@ -1,7 +1,10 @@
 import './Home.css'
+import $ from 'jquery';
+
 function Home({setCode}) {
     const submitCode = async (event) => {
         event.preventDefault();
+        console.log($('#code').val());
         setCode(document.getElementById('code').value);
     }
     return (
