@@ -1,17 +1,17 @@
 import axios from "axios";
-//import {  useEffect } from 'react';
+import {  useEffect } from 'react';
 
 
-function Menu() {
+function Menu({code}) {
     axios.defaults.baseURL = 'https://dinnermenuapi.azurewebsites.net';
 
-    // useEffect(() => {
-    //     axios.get('/api/GetMenu?')
-    //       .then((result) => {
-    //         console.log(result.data);
-    //       })
-    //       .catch(console.error);
-    //   }, []);
+    useEffect(() => {
+        axios.get(`/api/GetMenu?code=${code}&name=kyle`)
+          .then((result) => {
+            console.log(result.data);
+          })
+          .catch(console.error);
+      }, []);
 
 
     return (
