@@ -11,7 +11,7 @@ function Menu({code}) {
             console.log(result.data);
           })
           .catch(console.error);
-      }, []);
+      });
 
 
     return (
