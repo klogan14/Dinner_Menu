@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//:kogan14.github.io/Dinner_Menu/static/css/main.862d1cc1.css",
-    "main.js": "/https//:kogan14.github.io/Dinner_Menu/static/js/main.d1a41758.js",
-    "static/js/787.32fa3edd.chunk.js": "/https//:kogan14.github.io/Dinner_Menu/static/js/787.32fa3edd.chunk.js",
-    "index.html": "/https//:kogan14.github.io/Dinner_Menu/index.html",
-    "main.862d1cc1.css.map": "/https//:kogan14.github.io/Dinner_Menu/static/css/main.862d1cc1.css.map",
-    "main.d1a41758.js.map": "/https//:kogan14.github.io/Dinner_Menu/static/js/main.d1a41758.js.map",
-    "787.32fa3edd.chunk.js.map": "/https//:kogan14.github.io/Dinner_Menu/static/js/787.32fa3edd.chunk.js.map"
+    "main.css": "/Dinner_Menu/static/css/main.862d1cc1.css",
+    "main.js": "/Dinner_Menu/static/js/main.33d22fc5.js",
+    "static/js/787.32fa3edd.chunk.js": "/Dinner_Menu/static/js/787.32fa3edd.chunk.js",
+    "index.html": "/Dinner_Menu/index.html",
+    "main.862d1cc1.css.map": "/Dinner_Menu/static/css/main.862d1cc1.css.map",
+    "main.33d22fc5.js.map": "/Dinner_Menu/static/js/main.33d22fc5.js.map",
+    "787.32fa3edd.chunk.js.map": "/Dinner_Menu/static/js/787.32fa3edd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.862d1cc1.css",
-    "static/js/main.d1a41758.js"
+    "static/js/main.33d22fc5.js"
   ]
 }
