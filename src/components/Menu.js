@@ -2,15 +2,15 @@ import axios from "axios";
 import {  useEffect } from 'react';
 
 function Menu({code}) {
-    axios.defaults.baseURL = 'https://dinnermenuapi.azurewebsites.net';
+    //axios.defaults.baseURL = 'http://localhost:7071';
 
-    useEffect(() => {
-        axios.get(`/api/GetMenu?code=${code}&name=kyle`)
-          .then((result) => {
-            console.log(result.data);
-          })
-          .catch(console.error);
-      });
+    // useEffect(() => {
+    //     axios.get(`/api/GetMenu?name=kyle`)
+    //       .then((result) => {
+    //         console.log(result.data + code);
+    //       })
+    //       .catch(console.error);
+    //   });
 
 
     return (
