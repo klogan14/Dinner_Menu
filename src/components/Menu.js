@@ -2,15 +2,16 @@ import axios from "axios";
 import {  useEffect } from 'react';
 
 function Menu({code}) {
-    //axios.defaults.baseURL = 'http://localhost:7071';
+    //axios.defaults.baseURL = 'http://localhost:3000';
+    axios.defaults.baseURL = 'https://dinnermenuapi.up.railway.app';
 
-    // useEffect(() => {
-    //     axios.get(`/api/GetMenu?name=kyle`)
-    //       .then((result) => {
-    //         console.log(result.data + code);
-    //       })
-    //       .catch(console.error);
-    //   });
+    useEffect(() => {
+        axios.get(`/api/menu`)
+          .then((result) => {
+            console.log(JSON.stringify(result.data) + code);
+          })
+          .catch(console.error);
+      });
 
 
     return (
