@@ -19,7 +19,6 @@
     "web-vitals": "^2.1.4",
     "webpack": "^5.74.0"
   },
-  "proxy": "https://dinnermenuapi.azurewebsites.net",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
